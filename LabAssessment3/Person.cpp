@@ -4,7 +4,7 @@
 
 void Person::outputAge() const
 {
-	std::cout << "I am " << _age << "year old" << std::endl;
+	std::cout << "I am " << _age << " years old" << std::endl;
 }
 
 Person::Person(int age, std::string firstName, std::string lastName, std::string phone, std::string race)
